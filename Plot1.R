@@ -8,7 +8,7 @@ setwd("D:/Users/Gerjan/R/EDA/EDA-wk1")
 
 
 epcdf2<-subset(epcdf,epcdf$Date=="1/2/2007"|epcdf$Date=="2/2/2007")
-##zo kan het ook: epcdf2<-epcdf[epcdf[1]=="1/2/2007"|epcdf[1]=="2/2/2007"]
+##zo kan het ook: epcdf2<-epcdf[epcdf[1]=="1/2/2007"|epcdf[1]=="2/2/2007",]
 
 
 #plot1
